@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>COSC680 FYP Home</title>
+  </head>
+  <body>
+      <h1>Welcom!欢迎</h1>
+      <!-- flash message -->
+      {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+          {% for category, message in messages %}
+          <div class="alert {{category}}" role="alert">
+              {{ message }}
+          </div>
+          {% endfor %}
+      {% endif %}
+      {% endwith %}
+
+      <div>{{msg}}</div>
+  </body>
+</html>
