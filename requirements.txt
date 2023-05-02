@@ -1,0 +1,23 @@
+flask == 2.2.2
+jinja2 == 3.0.2
+numpy == 1.24.0
+Flask-Bootstrap == 3.3.7.1
+Flask-SQLAlchemy == 3.0.2
+flask-migrate == 4.0.0
+python-dotenv == 0.21.0
+pymysql == 1.0.2
+pyopenssl == 22.0.0
+opencv-python == 4.6.0.66
+mysql-connector-python == 8.0.31
+SQLAlchemy-serializer == 1.4.1
+Flask-Bcrypt == 1.0.1
+PyJWT == 2.6.0
+Flask-Script == 2.0.6
+flask_testing == 0.8.1
+marshmallow == 3.19.0
+flask-restx == 1.0.3
+flask-marshmallow == 0.14.0
+pandas == 1.5.2
+torch 
+torchvision
+skorch == 0.12.1

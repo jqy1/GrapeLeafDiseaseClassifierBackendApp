@@ -1,0 +1,4 @@
+{
+    "python.analysis.extraPaths": [
+        "/csse/users/yly26/miniconda3/envs/flask-py39/lib/python3.9/site-packages/",
+}
